@@ -20,7 +20,7 @@ d6 = random.randint(1,6)
 d4 = random.randint(1,4)
 
 # Figure out the total
-total = (num_d20*d20)+(num_d12*d12)+(num_d10*d10)+(num_d8*d8)+(num_d6*d6)+(num_d4*d4)+modifier
+total = (num_d20*d20)+(num_d12*d12)+(num_d10*d10)+(num_d8*d8)+(num_d6*d6)+(num_d4*d4)+ modifier
 
 print("You rolled ", num_d20, "d20 + ", num_d12, "d12 + ", num_d10, "d10 + ", num_d8, "d8 + ", num_d6, "d6 + ", num_d4, "d4 + ", modifier)
 print("Your final roll was ", total, ".")
